@@ -1,0 +1,101 @@
+
+body{
+
+  background-color: darkgray;
+  border: 1px solid;
+  text-align:center;
+
+      header{
+        padding: 1%;
+        margin: 1% 1% ;
+        nav{
+          border: 1px solid;
+          background-color: gray;
+
+
+        }
+
+
+      }
+
+  $defaultHeaderColor: white;
+
+  header,footer{
+    border: 1px solid;
+    background-color:$defaultHeaderColor;
+    margin: 1% 1% 1% 1%;
+    clear: both;
+
+  }
+
+$defaultHeightSection: 1%;
+
+ section{
+
+   border: 1px solid;
+   height: $defaultHeightSection;
+   margin: 1% ;
+
+    nav{
+
+      #sectionleftnav {
+        height: 30px;
+      }
+    }
+
+
+
+
+
+
+ }
+
+
+
+  #leftsection{
+
+    float:left;
+    width: 30%;
+
+  }
+
+  #rightsection{
+    float:right;
+    width: 60%;
+  }
+
+  #sectionleftnav{
+    border: 1px solid;
+    margin: 1%;
+
+  }
+
+
+
+p{
+  margin: 1% 1%;
+  border:1px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
