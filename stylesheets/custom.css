@@ -1,0 +1,79 @@
+/* line 2, ../sass/custom.scss */
+body {
+  background-color: darkgray;
+  border: 1px solid;
+  text-align: center;
+}
+/* line 8, ../sass/custom.scss */
+body header {
+  padding: 1%;
+  margin: 1% 1%;
+}
+/* line 11, ../sass/custom.scss */
+body header nav {
+  border: 1px solid;
+  background-color: gray;
+}
+/* line 21, ../sass/custom.scss */
+body footer {
+  clear: both;
+}
+/* line 28, ../sass/custom.scss */
+body header {
+  border: 1px solid;
+  background-color: white;
+  margin: 1%;
+}
+/* line 35, ../sass/custom.scss */
+body footer {
+  background-color: white;
+  border: 1px solid;
+  margin: 1%;
+  height: 30px;
+}
+/* line 49, ../sass/custom.scss */
+body section {
+  border: 1px solid;
+  margin: 0% 1% 1%;
+  background-color: lightcyan;
+  height: 600px;
+}
+/* line 59, ../sass/custom.scss */
+body div section {
+  float: left;
+  width: 27%;
+}
+/* line 64, ../sass/custom.scss */
+body div section nav {
+  border: 1px solid;
+  margin: 1%;
+  height: 80%;
+}
+
+/* line 78, ../sass/custom.scss */
+div #rightsection {
+  /*display: inline-block;*/
+  float: right;
+  width: 68%;
+}
+/* line 90, ../sass/custom.scss */
+div #rightsection #article2 p {
+  /*display: inline-block;*/
+  margin-right: 1px;
+  float: left;
+  width: 60%;
+  padding: 5%;
+}
+/* line 99, ../sass/custom.scss */
+div #rightsection #article2 aside {
+  display: inline-block;
+  margin-left: 1%;
+  width: 16%;
+  padding: 5%;
+}
+/* line 119, ../sass/custom.scss */
+div p, div aside, div article {
+  margin: 1.5% 1%;
+  border: 1px solid;
+  clear: both;
+}
