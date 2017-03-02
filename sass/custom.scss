@@ -16,84 +16,109 @@ body{
         }
 
 
+        }
+
+        footer{
+          clear:both;
+
       }
 
   $defaultHeaderColor: white;
 
-  header,footer{
+  header{
     border: 1px solid;
     background-color:$defaultHeaderColor;
-    margin: 1% 1% 1% 1%;
-    clear: both;
+    margin:1%;
 
   }
 
-$defaultHeightSection: 1%;
+  footer{
+    background-color: white;
+    border:1px solid;
+    margin:1%;
+    height: 30px;
+
+
+  }
+
+
+
+
+$defaultSectionMargin: 0% 1% 1%;
 
  section{
 
    border: 1px solid;
-   height: $defaultHeightSection;
-   margin: 1% ;
-
-    nav{
-
-      #sectionleftnav {
-        height: 30px;
-      }
-    }
-
-
-
-
-
-
+   margin:$defaultSectionMargin;
+   background-color: lightcyan;
+   height: 600px;
  }
 
+div{
 
-
-  #leftsection{
-
+  section{
     float:left;
-    width: 30%;
+    width: 27%;
 
+
+      nav{
+        border: 1px solid;
+        margin: 1%;
+        height: 80%;
+
+      }
+    }
   }
-
-  #rightsection{
-    float:right;
-    width: 60%;
-  }
-
-  #sectionleftnav{
-    border: 1px solid;
-    margin: 1%;
-
-  }
-
-
-
-p{
-  margin: 1% 1%;
-  border:1px solid;
 }
 
 
+div {
 
 
+  #rightsection {
 
+    /*display: inline-block;*/
+    float: right;
+    width: 68%;
 
+    #article1 {
 
+    }
 
+    #article2 {
 
+      p {
+        /*display: inline-block;*/
+        margin-right: 1px;
+        float: left;
+        width: 60%;
+        padding: 5%;
 
+      }
 
+      aside {
+        display: inline-block;
+        margin-left: 1%;
+        width: 16%;
+        padding: 5%;
 
+      }
 
+    }
 
+  }
 
+  @mixin defaultsinsidesectionright {
 
+    margin: 1.5% 1%;
+    border: 1px solid;
+    clear: both;
 
+  }
 
+  p, aside, article {
+    @include defaultsinsidesectionright;
+  }
 
 
 
